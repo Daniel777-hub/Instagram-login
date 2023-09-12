@@ -1,0 +1,135 @@
+/* import google font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.main-wrapper{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 2px;
+}
+
+
+.login-wp{
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.logo img{
+    width: 170px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px 0px;
+}
+
+.input-box input{
+    padding: 8px 7px;
+    width: 250px;
+    border-radius: 2px;
+    outline: none;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+}
+.input-box button{
+width: 100%;
+padding: 10px;
+background-color: #0095f6;
+color: white;
+border: none;
+border-radius: 5px;
+}
+
+.ou-divider{
+    margin: 20px 0px;
+    color: #8E8E8E;
+    font-size: 14px;
+    position: relative;
+}
+.ou-divider::after,
+.ou-divider::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #8E8E8E;
+    top: 50%;
+}
+.ou-divider::after{
+    left: 35px;
+}
+.ou-divider::before{
+    right: 35px;
+}
+
+.fb-line{
+    color: #385185;
+    font-size: 15PX;
+}
+
+.forgot-pass{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #00376b;
+}
+
+
+.logar{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    border: 1px solid #DBDBDB;
+    font-size: 14px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.sign-up-line span{
+    color: #262626;
+}
+.sign-up-line a{
+    color: #0095f6;
+    text-decoration: none;
+}
+
+
+.app-link{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.app-link img{
+    height: 50px;
+}
